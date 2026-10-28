@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 320px;   
+  margin: 0;
+  padding: 15px;
+}
+
+.caja {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #555555;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 480px) {
+  .caja {
+    padding: 20px;
+  }
+
+  #resultado {
+    font-size: 16px;
+  }
+    h1,
+    #resultado {
+  overflow-wrap: anywhere;  /* parte las palabras largas si no caben */
+}
+
+input,
+button {
+  min-width: 0;  
+}   
+}

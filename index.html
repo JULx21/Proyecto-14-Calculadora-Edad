@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Proyecto 14 - Contador Edad</title>
-    <link rel='stylesheet' href='css/style.css'>
-    <link rel="stylesheet" href="node_modules/flatpickr/dist/flatpickr.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 14 - Calculador Edad</title>
+
+  <link rel="stylesheet" href="node_modules/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <script src="script.js"></script>
+  <div class="caja">
+    <h1>Calculador de Edad</h1>
+
+    <form id="formulario">
+      <label for="fecha">Ingrese Su Fecha De Nacimiento:</label>
+      <input type="text" id="fecha" placeholder="Elige una fecha">
+      <button type="submit">Calcular</button>
+    </form>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="node_modules/luxon/build/global/luxon.min.js"></script>
+  <script src="node_modules/flatpickr/dist/flatpickr.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
