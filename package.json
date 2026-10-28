@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-14-calculadora-edad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JULx21/Proyecto-14-Calculadora-Edad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JULx21/Proyecto-14-Calculadora-Edad/issues"
+  },
+  "homepage": "https://github.com/JULx21/Proyecto-14-Calculadora-Edad#readme",
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "luxon": "^3.7.2"
+  }
+}
